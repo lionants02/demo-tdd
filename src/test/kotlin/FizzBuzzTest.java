@@ -1,4 +1,4 @@
-import com.example.demo.FizzBuss;
+import com.example.demo.FizzBuzz.FizzBuss;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -47,10 +47,10 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void input_7_Return_7() {
+    public void input_7_Return_Java() {
         FizzBuss fizzBuzz = new FizzBuss();
         String actualResult = fizzBuzz.say(7);
-        Assert.assertEquals("7", actualResult);
+        Assert.assertEquals("Java", actualResult);
     }
 
     @Test

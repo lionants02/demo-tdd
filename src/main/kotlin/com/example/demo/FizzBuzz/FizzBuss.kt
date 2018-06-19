@@ -10,8 +10,9 @@ class FizzBuss {
 
         var output = ""
         rules.forEach {
-            if (it.isValid(input))
+            if (it.isValid(input)) {
                 output += it.say()
+            }
         }
 
         return if (output.isEmpty()) "$input" else output
